@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-color: #c2d2d2;
+  width: 100vw;
+  text-align: center;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+header h1,
+h3 {
+  color: #2e3b75;
+}
+
+header h1 {
+  font-size: 4rem;
+  color: #2e3b75;
+}
+
+header h4,
+header h3 {
+  padding-top: 10px;
+  color: #4f5555;
+}
+header img {
+  width: 50vw;
+  display: block;
+  margin: 20px auto; /* Center the image within the header */
+}
+
+main {
+    line-height: 23px;
+}
+main h3 {
+  margin: 40px 0 20px 0;
+}
+
+.life,
+.stand-up {
+  margin: 20px;
+}
+main {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.stand-up li {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #2e3b75;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+font-weight: bold;
+}
